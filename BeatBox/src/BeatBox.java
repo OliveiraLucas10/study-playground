@@ -36,6 +36,8 @@ import javax.swing.event.ListSelectionListener;
 public class BeatBox
 {
 
+	int testeGit;
+	
 	JFrame theFrame;
 
 	JPanel mainPanel;
@@ -141,7 +143,7 @@ public class BeatBox
 		checkboxList = new ArrayList<JCheckBox>();
 		Box buttonBox = new Box(BoxLayout.Y_AXIS);
 
-		// criaÁ„o dos botıes, atribuiÁ„o de aÁ„o para eles (Listener) e adicionamento deles no box
+		// cria√ß√£o dos bot√µes, atribui√ß√£o de a√ß√£o para eles (Listener) e adicionamento deles no box
 		JButton start = new JButton("Start");
 		start.addActionListener(new MyStartListener());
 		buttonBox.add(start);
