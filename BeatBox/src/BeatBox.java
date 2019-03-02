@@ -36,8 +36,6 @@ import javax.swing.event.ListSelectionListener;
 public class BeatBox
 {
 
-	int testeGit;
-	
 	JFrame theFrame;
 
 	JPanel mainPanel;
